@@ -1,0 +1,23 @@
+name: 'Algolia Uploader'
+description: 'Upload your algolia uploader.'
+
+branding:
+  icon: upload-cloud
+  color: gray-dark
+
+inputs:
+  app_id:
+    description: 'Application ID of Algolia'
+    required: true
+  admin_key:
+    description: 'Admin API Key of Algolia'
+    required: true
+  index_name:
+    description: 'Index name of Algolia'
+    required: true
+  index_file_path:
+    description: 'Index file path'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
