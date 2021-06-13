@@ -33,4 +33,6 @@ jobs:
         index_name: <your_index_name>
         # The index file path relative to repo root.
         index_file_path: <your_index_file_path>
+        # The indexes i18next language codes comma separated. Ex: en,fr,tzm will upload to 3 indexes with predefined suffix: 'your_index_name_your_index_language'
+        index_languages: <your_index_languages>
 ```

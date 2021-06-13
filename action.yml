@@ -18,6 +18,9 @@ inputs:
   index_file_path:
     description: 'Index file path'
     required: true
+  index_languages:
+    description: 'Index i18next language codes'
+    required: false
 runs:
   using: 'docker'
   image: 'Dockerfile'
